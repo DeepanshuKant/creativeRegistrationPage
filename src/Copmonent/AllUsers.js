@@ -25,7 +25,7 @@ function AllUsers() {
     return (
         <>
             <div>
-                <div className="main__back">
+                <div className="main__back1">
                     {data.map((user) =>
                         <div className="users">
                             <h3>Welcome:{user.username}</h3>

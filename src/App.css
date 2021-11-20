@@ -12,7 +12,7 @@ body{
 .main__Back{
   background-color: rgb(202, 6, 241);
   border-radius: 10px;
-  width: 40%;
+  width: 100%;
   margin: auto;
   /* height: 400px; */
   padding: 20px;
