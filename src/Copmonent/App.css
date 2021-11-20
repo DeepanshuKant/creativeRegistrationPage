@@ -1,0 +1,21 @@
+/* .main__back{
+    border: 1px solid red;
+    width: 1000px;
+} */
+.main__back{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.users{
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+}

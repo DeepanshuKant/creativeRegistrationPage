@@ -6,13 +6,14 @@ body{
   align-items: center;
   flex-direction: column;
   /* border: 1px solid red; */
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .main__Back{
   background-color: rgb(202, 6, 241);
   border-radius: 10px;
-  width: 400px;
+  width: 40%;
+  margin: auto;
   /* height: 400px; */
   padding: 20px;
   display: flex;
