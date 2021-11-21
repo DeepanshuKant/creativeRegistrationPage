@@ -23,7 +23,7 @@ function App() {
       "password": password
     }
 
-    await axios.post("/user-register", userDetails).then((data) => {
+    await axios.post("http://localhost:4000/user-register", userDetails).then((data) => {
       Swal.fire({
         title: `<strong>${data.data.message}</strong>`,
         icon: 'success',
