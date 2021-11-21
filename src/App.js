@@ -4,15 +4,17 @@ import Swal from 'sweetalert2'
 import axios from 'axios';
 
 function App() {
+
   const [username, setUserName] = useState("")
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
-  function clearInput() {
 
+  function clearInput() {
     setUserName("")
     setEmail("")
     setPassword("")
   }
+
   async function post() {
 
     const userDetails = {

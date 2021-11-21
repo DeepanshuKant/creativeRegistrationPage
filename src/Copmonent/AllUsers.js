@@ -4,7 +4,6 @@ import axios from 'axios';
 import './App.css'
 
 
-
 function AllUsers() {
 
     const [data, setData] = useState([])
