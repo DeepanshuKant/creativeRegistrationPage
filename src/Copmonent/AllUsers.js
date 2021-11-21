@@ -11,7 +11,7 @@ function AllUsers() {
 
     useEffect(async () => {
         try {
-            const reponse = await axios.get("http://localhost:4000/users");
+            const reponse = await axios.get("https://registration-backend-deepanshu.herokuapp.com/users");
             console.log(reponse)
             setData(reponse.data)
         }
