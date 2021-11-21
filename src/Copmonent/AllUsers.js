@@ -10,7 +10,7 @@ function AllUsers() {
 
     useEffect(async () => {
         try {
-            const reponse = await axios.get("/users");
+            const reponse = await axios.get("http://localhost:4000/users");
             console.log(reponse)
             setData(reponse.data)
         }
