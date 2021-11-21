@@ -21,7 +21,7 @@ function App() {
       "password": password
     }
 
-    await axios.post("/user-register", userDetails).then((data) => {
+    await axios.post("https://registration-backend-deepanshu.herokuapp.com/user-register", userDetails).then((data) => {
       Swal.fire({
         title: `<strong>${data.data.message}</strong>`,
         icon: 'success',
