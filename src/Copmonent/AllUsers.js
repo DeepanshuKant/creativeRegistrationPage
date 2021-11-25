@@ -19,7 +19,7 @@ function AllUsers() {
             console.log(err)
         }
 
-    }, [])
+    })
 
     return (
         <>
